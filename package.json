@@ -1,0 +1,31 @@
+{
+  "name": "nursyease_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test" : "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^1.41.1",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.3",
+    "multiparty": "^4.2.3",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.4"
+  }
+}
