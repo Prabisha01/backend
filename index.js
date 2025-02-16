@@ -63,8 +63,7 @@ app.use('/api/contact', require('./routes/contactRoute'))
 // CREATE A ROUTE FOR PRODUCTS
 app.use('/api/product', require('./routes/productRoute'))
 
-//blog route
-app.use('/api/blog', require('./routes/blogRoute'))
+
 
 
 // defining port
